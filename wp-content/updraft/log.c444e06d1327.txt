@@ -1,0 +1,749 @@
+0000.000 (0) Opened log file at time: Tue, 09 Apr 2019 03:47:31 +0000 on http://122.112.239.237/wordpress
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 15.3M | 18M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0000.014 (0) Free space on disk containing Updraft's temporary directory: 34501.6 MB
+0000.022 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.027 (0) Semaphore (fd, wp_options) being initialised
+0000.034 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.041 (0) Set semaphore last lock (fd) time to 2019-04-09 03:47:31
+0000.043 (0) Semaphore lock (fd) complete
+0000.057 (0) Backup run: resumption=0, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (0s ago), job type=backup
+0000.062 (0) Scheduling a resumption (1) after 300 seconds (1554781951) in case this run gets aborted
+0000.078 (0) Checking if we have a zip executable available
+0000.086 (0) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0000.091 (0) Creation of backups of directories: beginning
+0000.099 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.413 (0) Total entities for the zip file: 720 directories, 3932 files (0 skipped as non-modified), 64.2 MB
+0000.420 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 65737.8 KB, split: 409600 KB)
+0000.424 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.430 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.436 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.439 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.443 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.446 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.449 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.451 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.455 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.459 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.462 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1100 files added (on-disk size: 0 KB)
+0000.466 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1200 files added (on-disk size: 0 KB)
+0000.468 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1300 files added (on-disk size: 0 KB)
+0000.472 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1400 files added (on-disk size: 0 KB)
+0000.476 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1500 files added (on-disk size: 0 KB)
+0000.481 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1600 files added (on-disk size: 0 KB)
+0000.484 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1700 files added (on-disk size: 0 KB)
+0000.487 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1800 files added (on-disk size: 0 KB)
+0000.491 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 1900 files added (on-disk size: 0 KB)
+0000.494 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2000 files added (on-disk size: 0 KB)
+0000.497 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2100 files added (on-disk size: 0 KB)
+0000.499 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2200 files added (on-disk size: 0 KB)
+0000.502 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2300 files added (on-disk size: 0 KB)
+0000.506 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2400 files added (on-disk size: 0 KB)
+0000.508 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2500 files added (on-disk size: 0 KB)
+0000.511 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2600 files added (on-disk size: 0 KB)
+0000.515 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2700 files added (on-disk size: 0 KB)
+0000.518 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2800 files added (on-disk size: 0 KB)
+0000.526 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 2900 files added (on-disk size: 0 KB)
+0000.530 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3000 files added (on-disk size: 0 KB)
+0000.533 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3100 files added (on-disk size: 0 KB)
+0000.539 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3200 files added (on-disk size: 0 KB)
+0000.543 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3300 files added (on-disk size: 0 KB)
+0000.546 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3400 files added (on-disk size: 0 KB)
+0000.550 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3500 files added (on-disk size: 0 KB)
+0000.552 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3600 files added (on-disk size: 0 KB)
+0000.556 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3700 files added (on-disk size: 0 KB)
+0000.561 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3800 files added (on-disk size: 0 KB)
+0000.564 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip.tmp: 3900 files added (on-disk size: 0 KB)
+0084.906 (0) Created plugins zip (0) - 24274.4 KB in 84.8 s (286.2 KB/s) (sha1: 2759fae91add09ec58c48f632217d89547504872, sha256: 8ff8a11d7e79d4991113e82973cb5c02959f84bc6d4dd06d346b376764d5f4e4)
+0084.923 (0) Beginning creation of dump of themes (split every: 400 MB)
+0085.036 (0) Total entities for the zip file: 132 directories, 540 files (0 skipped as non-modified), 14.6 MB
+0085.040 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 14899.9 KB, split: 409600 KB)
+0085.043 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0085.048 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0085.051 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0085.056 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0085.060 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0092.758 (0) Created themes zip (0) - 9351.1 KB in 7.8 s (1195.5 KB/s) (sha1: 50ce1621123d675feb417bb944e8e161af70ef8e, sha256: baf44eadaf6aecde99eeef2b15b3fbfe8972ebd59c4a8a20646da0192b4178dd)
+0092.763 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0092.765 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content/uploads
+0092.769 (0) finding files: elementor: adding to list (1)
+0092.772 (0) finding files: learn-press-logs: adding to list (2)
+0092.774 (0) finding files: 2019: adding to list (3)
+0092.777 (0) finding files: 2018: adding to list (4)
+0092.778 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0092.799 (0) Total entities for the zip file: 17 directories, 74 files (0 skipped as non-modified), 8.2 MB
+0092.802 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 8444 KB, split: 409600 KB)
+0093.501 (0) Created uploads zip (0) - 8420.3 KB in 0.7 s (11668 KB/s) (sha1: 472d8c3af33a52fda946b3cec85e9db942166a39, sha256: 311cd9b9896dcf00f257d4b95f9c648d0650a00e49a9cca362f1a5b63c774a11)
+0093.508 (0) Beginning backup of other directories found in the content directory (index: 0)
+0093.511 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0093.514 (0) Looking for candidates to backup in: /var/www/html/wordpress/wp-content
+0093.515 (0) finding files: themes: skipping: this is the themes directory
+0093.520 (0) finding files: updraft: skipping: this is the updraft directory
+0093.522 (0) finding files: languages: adding to list (1)
+0093.524 (0) finding files: Dropbox_Backup: adding to list (2)
+0093.525 (0) finding files: plugins: skipping: this is the plugins directory
+0093.526 (0) finding files: uploads: skipping: this is the uploads directory
+0093.532 (0) finding files: mu-plugins: adding to list (3)
+0093.535 (0) finding files: upgrade: skipping: excluded by options
+0093.537 (0) finding files: index.php: adding to list (4)
+0093.539 (0) finding files: backupwordpress-1ce5ed7cc2-backups: skipping: excluded by options (glob)
+0093.541 (0) finding files: backupwordpress-1ce5ed7cc2-backups: skipping: excluded by options (glob)
+0093.551 (0) Total entities for the zip file: 7 directories, 118 files (0 skipped as non-modified), 43.8 MB
+0093.554 (0) Only one archive required (UpdraftPlus_PclZip) - will attempt to do in single operation (data: 44865.8 KB, split: 409600 KB)
+0093.560 (0) Zip: backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0097.195 (0) Created others zip (0) - 41963.4 KB in 3.7 s (11485.8 KB/s) (sha1: ddd7feeae5bc72dabf7d6e480f8daa0fca715334, sha256: 0942cedead90ec0902e71123a0ecd32d14205dd2d16c72f44e0654ee7613522f)
+0097.222 (0) Saving backup status to database (elements: 8)
+0097.237 (0) Beginning creation of database dump (WordPress DB)
+0097.256 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0097.549 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1219 bytes total)
+0097.559 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0097.927 (0) Table wp_options: Total expected rows (approximate): 508
+0097.978 (0) Table wp_options: Total rows added: 513 in 0.05 seconds
+0097.982 (0) Table wp_options: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_options.table.gz - 228.8 KB)
+0097.994 (0) Table wp_users: Total expected rows (approximate): 29
+0098.001 (0) Table wp_users: Total rows added: 29 in 0.00 seconds
+0098.004 (0) Table wp_users: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_users.table.gz - 1.8 KB)
+0098.011 (0) Table wp_usermeta: Total expected rows (approximate): 449
+0098.016 (0) Table wp_usermeta: Total rows added: 449 in 0.00 seconds
+0098.019 (0) Table wp_usermeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_usermeta.table.gz - 4.7 KB)
+0098.027 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0098.031 (0) Table wp_commentmeta: Total rows added: 0 in 0.00 seconds
+0098.034 (0) Table wp_commentmeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0098.042 (0) Table wp_comments: Total expected rows (approximate): 1
+0098.046 (0) Table wp_comments: Total rows added: 1 in 0.00 seconds
+0098.047 (0) Table wp_comments: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_comments.table.gz - 0.8 KB)
+0098.072 (0) Table wp_links: Total expected rows (approximate): 0
+0098.075 (0) Table wp_links: Total rows added: 0 in 0.00 seconds
+0098.080 (0) Table wp_links: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_links.table.gz - 0.4 KB)
+0098.090 (0) Table wp_postmeta: Total expected rows (approximate): 285
+0098.093 (0) Table wp_postmeta: Total rows added: 285 in 0.00 seconds
+0098.096 (0) Table wp_postmeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_postmeta.table.gz - 4.8 KB)
+0098.106 (0) Table wp_posts: Total expected rows (approximate): 76
+0098.109 (0) Table wp_posts: Total rows added: 76 in 0.00 seconds
+0098.113 (0) Table wp_posts: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_posts.table.gz - 7.3 KB)
+0098.124 (0) Table wp_term_relationships: Total expected rows (approximate): 17
+0098.128 (0) Table wp_term_relationships: Total rows added: 17 in 0.00 seconds
+0098.130 (0) Table wp_term_relationships: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_term_relationships.table.gz - 0.4 KB)
+0098.140 (0) Table wp_term_taxonomy: Total expected rows (approximate): 14
+0098.145 (0) Table wp_term_taxonomy: Total rows added: 14 in 0.00 seconds
+0098.150 (0) Table wp_term_taxonomy: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_term_taxonomy.table.gz - 0.5 KB)
+0098.158 (0) Table wp_termmeta: Total expected rows (approximate): 0
+0098.162 (0) Table wp_termmeta: Total rows added: 0 in 0.00 seconds
+0098.163 (0) Table wp_termmeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_termmeta.table.gz - 0.4 KB)
+0098.170 (0) Table wp_terms: Total expected rows (approximate): 14
+0098.174 (0) Table wp_terms: Total rows added: 14 in 0.00 seconds
+0098.177 (0) Table wp_terms: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_terms.table.gz - 0.6 KB)
+0098.181 (0) Skipping table (lacks our prefix (wp_)): academic_syllabus
+0098.182 (0) Skipping table (lacks our prefix (wp_)): accountant
+0098.185 (0) Skipping table (lacks our prefix (wp_)): admin
+0098.186 (0) Skipping table (lacks our prefix (wp_)): attendance
+0098.189 (0) Skipping table (lacks our prefix (wp_)): book
+0098.190 (0) Skipping table (lacks our prefix (wp_)): book_request
+0098.191 (0) Skipping table (lacks our prefix (wp_)): ci_sessions
+0098.194 (0) Skipping table (lacks our prefix (wp_)): class
+0098.195 (0) Skipping table (lacks our prefix (wp_)): class_routine
+0098.198 (0) Skipping table (lacks our prefix (wp_)): document
+0098.203 (0) Skipping table (lacks our prefix (wp_)): dormitory
+0098.206 (0) Skipping table (lacks our prefix (wp_)): enroll
+0098.209 (0) Skipping table (lacks our prefix (wp_)): exam
+0098.210 (0) Skipping table (lacks our prefix (wp_)): expense_category
+0098.213 (0) Skipping table (lacks our prefix (wp_)): frontend_events
+0098.215 (0) Skipping table (lacks our prefix (wp_)): frontend_gallery
+0098.218 (0) Skipping table (lacks our prefix (wp_)): frontend_gallery_image
+0098.219 (0) Skipping table (lacks our prefix (wp_)): frontend_general_settings
+0098.222 (0) Skipping table (lacks our prefix (wp_)): frontend_news
+0098.225 (0) Skipping table (lacks our prefix (wp_)): grade
+0098.226 (0) Skipping table (lacks our prefix (wp_)): group_message
+0098.230 (0) Skipping table (lacks our prefix (wp_)): group_message_thread
+0098.233 (0) Skipping table (lacks our prefix (wp_)): invoice
+0098.234 (0) Skipping table (lacks our prefix (wp_)): language
+0098.238 (0) Skipping table (lacks our prefix (wp_)): language_bak
+0098.241 (0) Skipping table (lacks our prefix (wp_)): librarian
+0098.244 (0) Skipping table (lacks our prefix (wp_)): mark
+0098.248 (0) Skipping table (lacks our prefix (wp_)): message
+0098.251 (0) Skipping table (lacks our prefix (wp_)): message_thread
+0098.254 (0) Skipping table (lacks our prefix (wp_)): noticeboard
+0098.255 (0) Skipping table (lacks our prefix (wp_)): online_exam
+0098.257 (0) Skipping table (lacks our prefix (wp_)): online_exam_result
+0098.260 (0) Skipping table (lacks our prefix (wp_)): parent
+0098.263 (0) Skipping table (lacks our prefix (wp_)): payment
+0098.266 (0) Skipping table (lacks our prefix (wp_)): question_bank
+0098.267 (0) Skipping table (lacks our prefix (wp_)): question_paper
+0098.270 (0) Skipping table (lacks our prefix (wp_)): section
+0098.271 (0) Skipping table (lacks our prefix (wp_)): settings
+0098.274 (0) Skipping table (lacks our prefix (wp_)): student
+0098.275 (0) Skipping table (lacks our prefix (wp_)): subject
+0098.278 (0) Skipping table (lacks our prefix (wp_)): teacher
+0098.279 (0) Skipping table (lacks our prefix (wp_)): transport
+0098.288 (0) Table wp_learnpress_order_itemmeta: Total expected rows (approximate): 4
+0098.291 (0) Table wp_learnpress_order_itemmeta: Total rows added: 4 in 0.00 seconds
+0098.294 (0) Table wp_learnpress_order_itemmeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_order_itemmeta.table.gz - 0.4 KB)
+0098.304 (0) Table wp_learnpress_order_items: Total expected rows (approximate): 0
+0098.307 (0) Table wp_learnpress_order_items: Total rows added: 1 in 0.00 seconds
+0098.310 (0) Table wp_learnpress_order_items: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_order_items.table.gz - 0.4 KB)
+0098.318 (0) Table wp_learnpress_question_answermeta: Total expected rows (approximate): 0
+0098.320 (0) Table wp_learnpress_question_answermeta: Total rows added: 0 in 0.00 seconds
+0098.323 (0) Table wp_learnpress_question_answermeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_question_answermeta.table.gz - 0.4 KB)
+0098.334 (0) Table wp_learnpress_question_answers: Total expected rows (approximate): 2
+0098.339 (0) Table wp_learnpress_question_answers: Total rows added: 2 in 0.00 seconds
+0098.342 (0) Table wp_learnpress_question_answers: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_question_answers.table.gz - 0.4 KB)
+0098.347 (0) Table wp_learnpress_quiz_questions: Total expected rows (approximate): 0
+0098.352 (0) Table wp_learnpress_quiz_questions: Total rows added: 1 in 0.00 seconds
+0098.355 (0) Table wp_learnpress_quiz_questions: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_quiz_questions.table.gz - 0.4 KB)
+0098.363 (0) Table wp_learnpress_review_logs: Total expected rows (approximate): 0
+0098.366 (0) Table wp_learnpress_review_logs: Total rows added: 1 in 0.00 seconds
+0098.369 (0) Table wp_learnpress_review_logs: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_review_logs.table.gz - 0.5 KB)
+0098.377 (0) Table wp_learnpress_section_items: Total expected rows (approximate): 0
+0098.380 (0) Table wp_learnpress_section_items: Total rows added: 1 in 0.00 seconds
+0098.383 (0) Table wp_learnpress_section_items: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_section_items.table.gz - 0.4 KB)
+0098.391 (0) Table wp_learnpress_sections: Total expected rows (approximate): 0
+0098.394 (0) Table wp_learnpress_sections: Total rows added: 1 in 0.00 seconds
+0098.397 (0) Table wp_learnpress_sections: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_sections.table.gz - 0.5 KB)
+0098.404 (0) Table wp_learnpress_sessions: Total expected rows (approximate): 2
+0098.407 (0) Table wp_learnpress_sessions: Total rows added: 2 in 0.00 seconds
+0098.410 (0) Table wp_learnpress_sessions: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_sessions.table.gz - 0.5 KB)
+0098.417 (0) Table wp_learnpress_user_itemmeta: Total expected rows (approximate): 4
+0098.419 (0) Table wp_learnpress_user_itemmeta: Total rows added: 5 in 0.00 seconds
+0098.422 (0) Table wp_learnpress_user_itemmeta: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_user_itemmeta.table.gz - 0.5 KB)
+0098.427 (0) Table wp_learnpress_user_items: Total expected rows (approximate): 0
+0098.431 (0) Table wp_learnpress_user_items: Total rows added: 1 in 0.00 seconds
+0098.433 (0) Table wp_learnpress_user_items: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_user_items.table.gz - 0.5 KB)
+0098.439 (0) Table wp_wpsp_attendance: Total expected rows (approximate): 0
+0098.444 (0) Table wp_wpsp_attendance: Total rows added: 0 in 0.00 seconds
+0098.448 (0) Table wp_wpsp_attendance: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_attendance.table.gz - 0.3 KB)
+0098.455 (0) Table wp_wpsp_class: Total expected rows (approximate): 4
+0098.458 (0) Table wp_wpsp_class: Total rows added: 4 in 0.00 seconds
+0098.461 (0) Table wp_wpsp_class: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_class.table.gz - 0.5 KB)
+0098.470 (0) Table wp_wpsp_events: Total expected rows (approximate): 0
+0098.473 (0) Table wp_wpsp_events: Total rows added: 0 in 0.00 seconds
+0098.475 (0) Table wp_wpsp_events: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_events.table.gz - 0.3 KB)
+0098.483 (0) Table wp_wpsp_exam: Total expected rows (approximate): 0
+0098.486 (0) Table wp_wpsp_exam: Total rows added: 0 in 0.00 seconds
+0098.489 (0) Table wp_wpsp_exam: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_exam.table.gz - 0.3 KB)
+0098.495 (0) Table wp_wpsp_fee_payment_history: Total expected rows (approximate): 0
+0098.498 (0) Table wp_wpsp_fee_payment_history: Total rows added: 0 in 0.00 seconds
+0098.499 (0) Table wp_wpsp_fee_payment_history: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_fee_payment_history.table.gz - 0.4 KB)
+0098.506 (0) Table wp_wpsp_fees: Total expected rows (approximate): 0
+0098.508 (0) Table wp_wpsp_fees: Total rows added: 0 in 0.00 seconds
+0098.510 (0) Table wp_wpsp_fees: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_fees.table.gz - 0.3 KB)
+0098.517 (0) Table wp_wpsp_fees_payment: Total expected rows (approximate): 0
+0098.519 (0) Table wp_wpsp_fees_payment: Total rows added: 0 in 0.00 seconds
+0098.522 (0) Table wp_wpsp_fees_payment: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_fees_payment.table.gz - 0.3 KB)
+0098.529 (0) Table wp_wpsp_grade: Total expected rows (approximate): 0
+0098.531 (0) Table wp_wpsp_grade: Total rows added: 0 in 0.00 seconds
+0098.533 (0) Table wp_wpsp_grade: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_grade.table.gz - 0.3 KB)
+0098.538 (0) Table wp_wpsp_import_history: Total expected rows (approximate): 0
+0098.541 (0) Table wp_wpsp_import_history: Total rows added: 0 in 0.00 seconds
+0098.542 (0) Table wp_wpsp_import_history: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_import_history.table.gz - 0.3 KB)
+0098.549 (0) Table wp_wpsp_leavedays: Total expected rows (approximate): 0
+0098.551 (0) Table wp_wpsp_leavedays: Total rows added: 0 in 0.00 seconds
+0098.553 (0) Table wp_wpsp_leavedays: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_leavedays.table.gz - 0.3 KB)
+0098.562 (0) Table wp_wpsp_mark: Total expected rows (approximate): 0
+0098.563 (0) Table wp_wpsp_mark: Total rows added: 0 in 0.00 seconds
+0098.566 (0) Table wp_wpsp_mark: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_mark.table.gz - 0.3 KB)
+0098.571 (0) Table wp_wpsp_mark_extract: Total expected rows (approximate): 0
+0098.574 (0) Table wp_wpsp_mark_extract: Total rows added: 0 in 0.00 seconds
+0098.576 (0) Table wp_wpsp_mark_extract: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_mark_extract.table.gz - 0.3 KB)
+0098.582 (0) Table wp_wpsp_mark_fields: Total expected rows (approximate): 0
+0098.585 (0) Table wp_wpsp_mark_fields: Total rows added: 0 in 0.00 seconds
+0098.586 (0) Table wp_wpsp_mark_fields: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_mark_fields.table.gz - 0.3 KB)
+0098.593 (0) Table wp_wpsp_messages: Total expected rows (approximate): 0
+0098.595 (0) Table wp_wpsp_messages: Total rows added: 0 in 0.00 seconds
+0098.598 (0) Table wp_wpsp_messages: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_messages.table.gz - 0.3 KB)
+0098.609 (0) Table wp_wpsp_notification: Total expected rows (approximate): 0
+0098.613 (0) Table wp_wpsp_notification: Total rows added: 0 in 0.00 seconds
+0098.615 (0) Table wp_wpsp_notification: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_notification.table.gz - 0.3 KB)
+0098.627 (0) Table wp_wpsp_settings: Total expected rows (approximate): 0
+0098.630 (0) Table wp_wpsp_settings: Total rows added: 0 in 0.00 seconds
+0098.633 (0) Table wp_wpsp_settings: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_settings.table.gz - 0.3 KB)
+0098.640 (0) Table wp_wpsp_student: Total expected rows (approximate): 8
+0098.645 (0) Table wp_wpsp_student: Total rows added: 8 in 0.00 seconds
+0098.651 (0) Table wp_wpsp_student: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_student.table.gz - 1.2 KB)
+0098.662 (0) Table wp_wpsp_subject: Total expected rows (approximate): 9
+0098.666 (0) Table wp_wpsp_subject: Total rows added: 9 in 0.00 seconds
+0098.670 (0) Table wp_wpsp_subject: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_subject.table.gz - 0.6 KB)
+0098.678 (0) Table wp_wpsp_teacher: Total expected rows (approximate): 11
+0098.680 (0) Table wp_wpsp_teacher: Total rows added: 11 in 0.00 seconds
+0098.684 (0) Table wp_wpsp_teacher: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_teacher.table.gz - 1.2 KB)
+0098.695 (0) Table wp_wpsp_teacher_attendance: Total expected rows (approximate): 0
+0098.700 (0) Table wp_wpsp_teacher_attendance: Total rows added: 0 in 0.00 seconds
+0098.703 (0) Table wp_wpsp_teacher_attendance: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_teacher_attendance.table.gz - 0.3 KB)
+0098.711 (0) Table wp_wpsp_timetable: Total expected rows (approximate): 0
+0098.714 (0) Table wp_wpsp_timetable: Total rows added: 0 in 0.00 seconds
+0098.717 (0) Table wp_wpsp_timetable: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_timetable.table.gz - 0.3 KB)
+0098.726 (0) Table wp_wpsp_transport: Total expected rows (approximate): 0
+0098.727 (0) Table wp_wpsp_transport: Total rows added: 0 in 0.00 seconds
+0098.730 (0) Table wp_wpsp_transport: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_transport.table.gz - 0.3 KB)
+0098.738 (0) Table wp_wpsp_workinghours: Total expected rows (approximate): 0
+0098.743 (0) Table wp_wpsp_workinghours: Total rows added: 1 in 0.00 seconds
+0098.748 (0) Table wp_wpsp_workinghours: finishing file (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_workinghours.table.gz - 0.4 KB)
+0098.762 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_options.table.gz (1/88): adding to final database dump
+0098.804 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_users.table.gz (2/88): adding to final database dump
+0098.808 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_usermeta.table.gz (3/88): adding to final database dump
+0098.813 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_commentmeta.table.gz (4/88): adding to final database dump
+0098.816 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_comments.table.gz (5/88): adding to final database dump
+0098.819 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_links.table.gz (6/88): adding to final database dump
+0098.822 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_postmeta.table.gz (7/88): adding to final database dump
+0098.826 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_posts.table.gz (8/88): adding to final database dump
+0098.830 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_term_relationships.table.gz (9/88): adding to final database dump
+0098.833 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_term_taxonomy.table.gz (10/88): adding to final database dump
+0098.834 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_termmeta.table.gz (11/88): adding to final database dump
+0098.838 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_terms.table.gz (12/88): adding to final database dump
+0098.839 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_order_itemmeta.table.gz (13/88): adding to final database dump
+0098.842 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_order_items.table.gz (14/88): adding to final database dump
+0098.843 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_question_answermeta.table.gz (15/88): adding to final database dump
+0098.848 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_question_answers.table.gz (16/88): adding to final database dump
+0098.852 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_quiz_questions.table.gz (17/88): adding to final database dump
+0098.855 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_review_logs.table.gz (18/88): adding to final database dump
+0098.858 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_section_items.table.gz (19/88): adding to final database dump
+0098.861 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_sections.table.gz (20/88): adding to final database dump
+0098.862 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_sessions.table.gz (21/88): adding to final database dump
+0098.865 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_user_itemmeta.table.gz (22/88): adding to final database dump
+0098.867 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_learnpress_user_items.table.gz (23/88): adding to final database dump
+0098.870 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_attendance.table.gz (24/88): adding to final database dump
+0098.871 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_class.table.gz (25/88): adding to final database dump
+0098.875 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_events.table.gz (26/88): adding to final database dump
+0098.879 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_exam.table.gz (27/88): adding to final database dump
+0098.882 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_fee_payment_history.table.gz (28/88): adding to final database dump
+0098.883 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_fees.table.gz (29/88): adding to final database dump
+0098.887 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_fees_payment.table.gz (30/88): adding to final database dump
+0098.889 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_grade.table.gz (31/88): adding to final database dump
+0098.890 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_import_history.table.gz (32/88): adding to final database dump
+0098.893 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_leavedays.table.gz (33/88): adding to final database dump
+0098.894 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_mark.table.gz (34/88): adding to final database dump
+0098.897 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_mark_extract.table.gz (35/88): adding to final database dump
+0098.899 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_mark_fields.table.gz (36/88): adding to final database dump
+0098.901 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_messages.table.gz (37/88): adding to final database dump
+0098.903 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_notification.table.gz (38/88): adding to final database dump
+0098.906 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_settings.table.gz (39/88): adding to final database dump
+0098.910 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_student.table.gz (40/88): adding to final database dump
+0098.913 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_subject.table.gz (41/88): adding to final database dump
+0098.916 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_teacher.table.gz (42/88): adding to final database dump
+0098.918 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_teacher_attendance.table.gz (43/88): adding to final database dump
+0098.921 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_timetable.table.gz (44/88): adding to final database dump
+0098.923 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_transport.table.gz (45/88): adding to final database dump
+0098.926 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db-table-wp_wpsp_workinghours.table.gz (46/88): adding to final database dump
+0098.928 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: finished writing out complete database file (232 KB)
+0098.943 (0) Total database tables backed up: 46 (backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz, size: 260187, sha256)
+0098.962 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0098.966 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0098.971 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0098.973 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+0098.975 (0) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+0098.977 (0) Saving backup history. Total backup size: 82.3 MB
+0098.982 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0098.990 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0098.995 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+0099.095 (0) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0099.102 (0) Google Drive: id_from_path: retry (2)
+0117.106 (0) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0117.110 (0) Google Drive: id_from_path: retry (1)
+0121.130 (0) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0121.135 (0) Google Drive: id_from_path: retry (0)
+0126.161 (0) Google Drive: upload: failed to access parent folder: Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0126.168 (0) An error condition has occurred for the first time during this job
+0126.174 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0126.177 (0) Number of backup sets in history: 1; groups (db): 1
+0126.179 (0) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0126.181 (0) This backup set is the backup set just made, so will not be deleted.
+0126.182 (0) Number of backup sets in history: 1; groups (files): 1
+0126.183 (0) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0126.183 (0) This backup set is the backup set just made, so will not be deleted.
+0126.186 (0) This backup set is the backup set just made, so will not be deleted.
+0126.186 (0) This backup set is the backup set just made, so will not be deleted.
+0126.187 (0) This backup set is the backup set just made, so will not be deleted.
+0126.187 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0126.189 (0) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0126.194 (0) Resume backup (c444e06d1327, 0): finish run
+0126.211 (0) Decremented the semaphore (fd) by 1
+0126.217 (0) Semaphore (fd) unlocked
+0126.219 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0126.225 (0) Rescheduling resumption 1: moving to 100 seconds from now (1554781877)
+0126.233 (0) No email will/can be sent - the user has not configured an email address.
+0126.235 (0) The backup has not finished; a resumption is scheduled
+0226.228 (1) Opened log file at time: Tue, 09 Apr 2019 03:51:17 +0000 on http://122.112.239.237/wordpress
+0226.231 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0226.251 (1) Free space on disk containing Updraft's temporary directory: 34419.3 MB
+0226.257 (1) Backup run: resumption=1, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (226s ago), job type=backup, previous check-in=98.8s
+0226.259 (1) Scheduling a resumption (2) after 300 seconds (1554782177) in case this run gets aborted
+0226.266 (1) Checking if we have a zip executable available
+0226.269 (1) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0226.270 (1) Creation of backups of directories: already finished
+0226.271 (1) Saving backup status to database (elements: 8)
+0226.277 (1) Database dump (WordPress DB): Creation was completed already
+0226.290 (1) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0226.299 (1) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0226.301 (1) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0226.303 (1) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+0226.305 (1) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+0226.307 (1) Saving backup history. Total backup size: 82.3 MB
+0226.314 (1) Requesting upload of the files that have not yet been successfully uploaded (5)
+0226.318 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0226.319 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+0241.324 (1) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0241.328 (1) Google Drive: id_from_path: retry (2)
+0259.330 (1) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0259.334 (1) Google Drive: id_from_path: retry (1)
+0278.339 (1) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0278.344 (1) Google Drive: id_from_path: retry (0)
+0293.347 (1) Google Drive: upload: failed to access parent folder: Connection timed out after 15001 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0293.351 (1) An error condition has occurred for the first time during this job
+0293.353 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0293.354 (1) Number of backup sets in history: 1; groups (db): 1
+0293.358 (1) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0293.359 (1) This backup set is the backup set just made, so will not be deleted.
+0293.359 (1) Number of backup sets in history: 1; groups (files): 1
+0293.363 (1) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0293.363 (1) This backup set is the backup set just made, so will not be deleted.
+0293.366 (1) This backup set is the backup set just made, so will not be deleted.
+0293.366 (1) This backup set is the backup set just made, so will not be deleted.
+0293.366 (1) This backup set is the backup set just made, so will not be deleted.
+0293.366 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0293.369 (1) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0293.374 (1) Resume backup (c444e06d1327, 1): finish run
+0293.377 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0293.382 (1) No email will/can be sent - the user has not configured an email address.
+0293.387 (1) The backup has not finished; a resumption is scheduled
+0525.356 (2) Opened log file at time: Tue, 09 Apr 2019 03:56:17 +0000 on http://122.112.239.237/wordpress
+0525.360 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0525.363 (2) Free space on disk containing Updraft's temporary directory: 34419.2 MB
+0525.367 (2) Backup run: resumption=2, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (526s ago), job type=backup
+0525.371 (2) Scheduling a resumption (3) after 300 seconds (1554782477) in case this run gets aborted
+0525.375 (2) Checking if we have a zip executable available
+0525.377 (2) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0525.379 (2) Creation of backups of directories: already finished
+0525.381 (2) Saving backup status to database (elements: 8)
+0525.386 (2) Database dump (WordPress DB): Creation was completed already
+0525.393 (2) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0525.394 (2) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0525.397 (2) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0525.398 (2) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+0525.401 (2) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+0525.402 (2) Saving backup history. Total backup size: 82.3 MB
+0525.406 (2) Requesting upload of the files that have not yet been successfully uploaded (5)
+0525.410 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0525.416 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+0540.420 (2) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0540.424 (2) Google Drive: id_from_path: retry (2)
+0558.429 (2) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0558.433 (2) Google Drive: id_from_path: retry (1)
+0577.436 (2) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0577.443 (2) Google Drive: id_from_path: retry (0)
+0592.449 (2) Google Drive: upload: failed to access parent folder: Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0592.453 (2) An error condition has occurred for the first time during this job
+0592.455 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0592.459 (2) Number of backup sets in history: 1; groups (db): 1
+0592.461 (2) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0592.462 (2) This backup set is the backup set just made, so will not be deleted.
+0592.462 (2) Number of backup sets in history: 1; groups (files): 1
+0592.465 (2) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0592.465 (2) This backup set is the backup set just made, so will not be deleted.
+0592.472 (2) This backup set is the backup set just made, so will not be deleted.
+0592.472 (2) This backup set is the backup set just made, so will not be deleted.
+0592.472 (2) This backup set is the backup set just made, so will not be deleted.
+0592.472 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+0592.478 (2) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0592.488 (2) Resume backup (c444e06d1327, 2): finish run
+0592.493 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0592.497 (2) No email will/can be sent - the user has not configured an email address.
+0592.502 (2) The backup has not finished; a resumption is scheduled
+0827.478 (3) Opened log file at time: Tue, 09 Apr 2019 04:01:19 +0000 on http://122.112.239.237/wordpress
+0827.482 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+0827.491 (3) Free space on disk containing Updraft's temporary directory: 34419.2 MB
+0827.497 (3) Backup run: resumption=3, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (828s ago), job type=backup
+0827.501 (3) Scheduling a resumption (4) after 300 seconds (1554782779) in case this run gets aborted
+0827.506 (3) Checking if we have a zip executable available
+0827.507 (3) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+0827.509 (3) Creation of backups of directories: already finished
+0827.510 (3) Saving backup status to database (elements: 8)
+0827.515 (3) Database dump (WordPress DB): Creation was completed already
+0827.527 (3) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0827.530 (3) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0827.531 (3) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0827.536 (3) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+0827.539 (3) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+0827.541 (3) Saving backup history. Total backup size: 82.3 MB
+0827.546 (3) Requesting upload of the files that have not yet been successfully uploaded (5)
+0827.549 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0827.551 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+0842.554 (3) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0842.558 (3) Google Drive: id_from_path: retry (2)
+0860.561 (3) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0860.566 (3) Google Drive: id_from_path: retry (1)
+0879.568 (3) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0879.574 (3) Google Drive: id_from_path: retry (0)
+0894.579 (3) Google Drive: upload: failed to access parent folder: Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+0894.585 (3) An error condition has occurred for the first time during this job
+0894.593 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0894.594 (3) Number of backup sets in history: 1; groups (db): 1
+0894.595 (3) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0894.597 (3) This backup set is the backup set just made, so will not be deleted.
+0894.597 (3) Number of backup sets in history: 1; groups (files): 1
+0894.601 (3) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+0894.601 (3) This backup set is the backup set just made, so will not be deleted.
+0894.603 (3) This backup set is the backup set just made, so will not be deleted.
+0894.603 (3) This backup set is the backup set just made, so will not be deleted.
+0894.604 (3) This backup set is the backup set just made, so will not be deleted.
+0894.604 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+0894.605 (3) Retain: saving new backup history (sets now: 1) and finishing retain operation
+0894.611 (3) Resume backup (c444e06d1327, 3): finish run
+0894.612 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0894.615 (3) No email will/can be sent - the user has not configured an email address.
+0894.618 (3) The backup has not finished; a resumption is scheduled
+1127.876 (4) Opened log file at time: Tue, 09 Apr 2019 04:06:19 +0000 on http://122.112.239.237/wordpress
+1127.881 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+1127.884 (4) Free space on disk containing Updraft's temporary directory: 34419.1 MB
+1127.892 (4) Backup run: resumption=4, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (1128s ago), job type=backup
+1127.897 (4) Scheduling a resumption (5) after 300 seconds (1554783079) in case this run gets aborted
+1127.901 (4) Checking if we have a zip executable available
+1127.903 (4) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+1127.905 (4) Creation of backups of directories: already finished
+1127.906 (4) Saving backup status to database (elements: 8)
+1127.913 (4) Database dump (WordPress DB): Creation was completed already
+1127.921 (4) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1127.922 (4) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1127.927 (4) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1127.930 (4) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+1127.931 (4) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+1127.934 (4) Saving backup history. Total backup size: 82.3 MB
+1127.939 (4) Requesting upload of the files that have not yet been successfully uploaded (5)
+1127.945 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1127.946 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+1127.994 (4) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1127.999 (4) Google Drive: id_from_path: retry (2)
+1131.019 (4) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1131.023 (4) Google Drive: id_from_path: retry (1)
+1135.043 (4) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1135.050 (4) Google Drive: id_from_path: retry (0)
+1135.277 (4) Google Drive: upload: failed to access parent folder: Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1135.283 (4) An error condition has occurred for the first time during this job
+1135.287 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1135.290 (4) Number of backup sets in history: 1; groups (db): 1
+1135.293 (4) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+1135.294 (4) This backup set is the backup set just made, so will not be deleted.
+1135.294 (4) Number of backup sets in history: 1; groups (files): 1
+1135.297 (4) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+1135.297 (4) This backup set is the backup set just made, so will not be deleted.
+1135.298 (4) This backup set is the backup set just made, so will not be deleted.
+1135.298 (4) This backup set is the backup set just made, so will not be deleted.
+1135.298 (4) This backup set is the backup set just made, so will not be deleted.
+1135.298 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+1135.301 (4) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1135.305 (4) Resume backup (c444e06d1327, 4): finish run
+1135.311 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1135.317 (4) No email will/can be sent - the user has not configured an email address.
+1135.318 (4) The backup has not finished; a resumption is scheduled
+1428.972 (5) Opened log file at time: Tue, 09 Apr 2019 04:11:20 +0000 on http://122.112.239.237/wordpress
+1428.974 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+1428.977 (5) Free space on disk containing Updraft's temporary directory: 34419 MB
+1428.980 (5) Backup run: resumption=5, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (1429s ago), job type=backup
+1428.983 (5) Scheduling a resumption (6) after 300 seconds (1554783380) in case this run gets aborted
+1428.987 (5) Checking if we have a zip executable available
+1428.989 (5) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+1428.990 (5) Creation of backups of directories: already finished
+1428.993 (5) Saving backup status to database (elements: 8)
+1428.997 (5) Database dump (WordPress DB): Creation was completed already
+1429.003 (5) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1429.005 (5) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1429.006 (5) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1429.009 (5) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+1429.010 (5) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+1429.011 (5) Saving backup history. Total backup size: 82.3 MB
+1429.015 (5) Requesting upload of the files that have not yet been successfully uploaded (5)
+1429.019 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1429.021 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+1429.070 (5) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1429.074 (5) Google Drive: id_from_path: retry (2)
+1434.089 (5) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1434.093 (5) Google Drive: id_from_path: retry (1)
+1438.116 (5) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1438.119 (5) Google Drive: id_from_path: retry (0)
+1438.143 (5) Google Drive: upload: failed to access parent folder: Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1438.146 (5) An error condition has occurred for the first time during this job
+1438.150 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1438.151 (5) Number of backup sets in history: 1; groups (db): 1
+1438.154 (5) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+1438.155 (5) This backup set is the backup set just made, so will not be deleted.
+1438.155 (5) Number of backup sets in history: 1; groups (files): 1
+1438.158 (5) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+1438.158 (5) This backup set is the backup set just made, so will not be deleted.
+1438.161 (5) This backup set is the backup set just made, so will not be deleted.
+1438.161 (5) This backup set is the backup set just made, so will not be deleted.
+1438.161 (5) This backup set is the backup set just made, so will not be deleted.
+1438.161 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+1438.163 (5) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1438.167 (5) Resume backup (c444e06d1327, 5): finish run
+1438.172 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1438.177 (5) No email will/can be sent - the user has not configured an email address.
+1438.178 (5) The backup has not finished; a resumption is scheduled
+1728.738 (6) Opened log file at time: Tue, 09 Apr 2019 04:16:20 +0000 on http://122.112.239.237/wordpress
+1728.739 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 6M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+1728.744 (6) Free space on disk containing Updraft's temporary directory: 34419 MB
+1728.749 (6) Backup run: resumption=6, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (1729s ago), job type=backup
+1728.755 (6) Scheduling a resumption (7) after 300 seconds (1554783680) in case this run gets aborted
+1728.759 (6) Checking if we have a zip executable available
+1728.762 (6) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+1728.763 (6) Creation of backups of directories: already finished
+1728.773 (6) Saving backup status to database (elements: 8)
+1728.779 (6) Database dump (WordPress DB): Creation was completed already
+1728.788 (6) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1728.793 (6) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1728.795 (6) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1728.798 (6) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+1728.801 (6) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+1728.802 (6) Saving backup history. Total backup size: 82.3 MB
+1728.806 (6) Requesting upload of the files that have not yet been successfully uploaded (5)
+1728.810 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1728.813 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+1743.816 (6) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1743.821 (6) Google Drive: id_from_path: retry (2)
+1761.824 (6) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1761.830 (6) Google Drive: id_from_path: retry (1)
+1780.833 (6) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1780.836 (6) Google Drive: id_from_path: retry (0)
+1795.838 (6) Google Drive: upload: failed to access parent folder: Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+1795.841 (6) An error condition has occurred for the first time during this job
+1795.846 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1795.849 (6) Number of backup sets in history: 1; groups (db): 1
+1795.850 (6) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+1795.855 (6) This backup set is the backup set just made, so will not be deleted.
+1795.855 (6) Number of backup sets in history: 1; groups (files): 1
+1795.858 (6) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+1795.858 (6) This backup set is the backup set just made, so will not be deleted.
+1795.861 (6) This backup set is the backup set just made, so will not be deleted.
+1795.861 (6) This backup set is the backup set just made, so will not be deleted.
+1795.861 (6) This backup set is the backup set just made, so will not be deleted.
+1795.861 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+1795.863 (6) Retain: saving new backup history (sets now: 1) and finishing retain operation
+1795.867 (6) Resume backup (c444e06d1327, 6): finish run
+1795.873 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1795.879 (6) No email will/can be sent - the user has not configured an email address.
+1795.882 (6) The backup has not finished; a resumption is scheduled
+2028.748 (7) Opened log file at time: Tue, 09 Apr 2019 04:21:20 +0000 on http://122.112.239.237/wordpress
+2028.751 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 10M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+2028.754 (7) Free space on disk containing Updraft's temporary directory: 34418.9 MB
+2028.761 (7) Backup run: resumption=7, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (2029s ago), job type=backup
+2028.768 (7) Scheduling a resumption (8) after 300 seconds (1554783980) in case this run gets aborted
+2028.773 (7) Checking if we have a zip executable available
+2028.774 (7) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2028.777 (7) Creation of backups of directories: already finished
+2028.778 (7) Saving backup status to database (elements: 8)
+2028.782 (7) Database dump (WordPress DB): Creation was completed already
+2028.790 (7) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2028.791 (7) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2028.793 (7) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2028.795 (7) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+2028.797 (7) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+2028.798 (7) Saving backup history. Total backup size: 82.3 MB
+2028.802 (7) Requesting upload of the files that have not yet been successfully uploaded (5)
+2028.806 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2028.809 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+2043.814 (7) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2043.818 (7) Google Drive: id_from_path: retry (2)
+2061.823 (7) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2061.827 (7) Google Drive: id_from_path: retry (1)
+2065.845 (7) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2065.848 (7) Google Drive: id_from_path: retry (0)
+2080.851 (7) Google Drive: upload: failed to access parent folder: Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2080.854 (7) An error condition has occurred for the first time during this job
+2080.858 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2080.861 (7) Number of backup sets in history: 1; groups (db): 1
+2080.863 (7) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+2080.865 (7) This backup set is the backup set just made, so will not be deleted.
+2080.865 (7) Number of backup sets in history: 1; groups (files): 1
+2080.867 (7) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+2080.867 (7) This backup set is the backup set just made, so will not be deleted.
+2080.869 (7) This backup set is the backup set just made, so will not be deleted.
+2080.869 (7) This backup set is the backup set just made, so will not be deleted.
+2080.869 (7) This backup set is the backup set just made, so will not be deleted.
+2080.869 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+2080.871 (7) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2080.878 (7) Resume backup (c444e06d1327, 7): finish run
+2080.879 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2080.885 (7) No email will/can be sent - the user has not configured an email address.
+2080.886 (7) The backup has not finished; a resumption is scheduled
+2329.091 (8) Opened log file at time: Tue, 09 Apr 2019 04:26:20 +0000 on http://122.112.239.237/wordpress
+2329.099 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 8M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+2329.102 (8) Free space on disk containing Updraft's temporary directory: 34418.8 MB
+2329.106 (8) Backup run: resumption=8, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (2329s ago), job type=backup
+2329.115 (8) Scheduling a resumption (9) after 300 seconds (1554784280) in case this run gets aborted
+2329.121 (8) Checking if we have a zip executable available
+2329.123 (8) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2329.125 (8) Creation of backups of directories: already finished
+2329.126 (8) Saving backup status to database (elements: 8)
+2329.131 (8) Database dump (WordPress DB): Creation was completed already
+2329.139 (8) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2329.142 (8) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2329.143 (8) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2329.146 (8) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+2329.147 (8) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+2329.152 (8) Saving backup history. Total backup size: 82.3 MB
+2329.158 (8) Requesting upload of the files that have not yet been successfully uploaded (5)
+2329.162 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2329.163 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+2336.293 (8) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2336.299 (8) Google Drive: id_from_path: retry (2)
+2346.362 (8) Google Drive: id_from_path failure: exception (Google_IO_Exception): Unknown SSL protocol error in connection to www.googleapis.com:443  (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2346.366 (8) Google Drive: id_from_path: retry (1)
+2365.369 (8) Google Drive: id_from_path failure: exception (Google_IO_Exception): Operation timed out after 0 milliseconds with 0 out of 0 bytes received (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2365.374 (8) Google Drive: id_from_path: retry (0)
+2380.377 (8) Google Drive: upload: failed to access parent folder: Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2380.380 (8) An error condition has occurred for the first time during this job
+2380.386 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2380.387 (8) Number of backup sets in history: 1; groups (db): 1
+2380.391 (8) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+2380.393 (8) This backup set is the backup set just made, so will not be deleted.
+2380.393 (8) Number of backup sets in history: 1; groups (files): 1
+2380.394 (8) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+2380.394 (8) This backup set is the backup set just made, so will not be deleted.
+2380.397 (8) This backup set is the backup set just made, so will not be deleted.
+2380.397 (8) This backup set is the backup set just made, so will not be deleted.
+2380.397 (8) This backup set is the backup set just made, so will not be deleted.
+2380.397 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+2380.398 (8) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2380.402 (8) Resume backup (c444e06d1327, 8): finish run
+2380.407 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2380.411 (8) No email will/can be sent - the user has not configured an email address.
+2380.413 (8) The backup has not finished; a resumption is scheduled
+2632.474 (9) Opened log file at time: Tue, 09 Apr 2019 04:31:24 +0000 on http://122.112.239.237/wordpress
+2632.479 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.11 WP: 5.0.4 PHP: 7.0.32-0ubuntu0.16.04.1 (apache2handler, Linux 1 4.4.0-104-generic #127-Ubuntu SMP Mon Dec 11 12:16:42 UTC 2017 x86_64) MySQL: 5.7.21-0ubuntu0.16.04.1 WPLANG: zh_CN Server: Apache/2.4.18 (Ubuntu) safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 12.3M | 2M) multisite: N openssl: OpenSSL 1.0.2g  1 Mar 2016 mcrypt: Y LANG: C ZipArchive::addFile: N
+2632.482 (9) Free space on disk containing Updraft's temporary directory: 34418.8 MB
+2632.491 (9) Backup run: resumption=9, nonce=c444e06d1327, file_nonce=c444e06d1327 begun at=1554781651 (2633s ago), job type=backup
+2632.499 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 0) - will not schedule a further attempt until we see something useful happening this time
+2632.505 (9) Scheduling a resumption (10) after 300 seconds (1554784584); but the job will then be aborted unless something happens this time
+2632.509 (9) Zip engine: ZipArchive (a.k.a. php-zip) is not available or is disabled (will use PclZip (much slower) if needed)
+2632.510 (9) Creation of backups of directories: already finished
+2632.513 (9) Saving backup status to database (elements: 8)
+2632.517 (9) Database dump (WordPress DB): Creation was completed already
+2632.525 (9) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2632.526 (9) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2632.529 (9) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2632.531 (9) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-others.zip: others: This file has not yet been successfully uploaded: will queue
+2632.534 (9) backup_2019-04-09-1147_122112239237_wordpress_c444e06d1327-db.gz: db: This file has not yet been successfully uploaded: will queue
+2632.536 (9) Saving backup history. Total backup size: 82.3 MB
+2632.540 (9) Requesting upload of the files that have not yet been successfully uploaded (5)
+2632.543 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2632.545 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-f453c75593c92828a75143596d3fbe47)
+2647.547 (9) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2647.550 (9) Google Drive: id_from_path: retry (2)
+2665.555 (9) Google Drive: id_from_path failure: exception (Google_IO_Exception): Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2665.561 (9) Google Drive: id_from_path: retry (1)
+2684.566 (9) Google Drive: id_from_path failure: exception (Google_IO_Exception): Operation timed out after 0 milliseconds with 0 out of 0 bytes received (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2684.569 (9) Google Drive: id_from_path: retry (0)
+2699.570 (9) Google Drive: upload: failed to access parent folder: Connection timed out after 15000 milliseconds (line: 117, file: /var/www/html/wordpress/wp-content/plugins/updraftplus/includes/Google/IO/Curl.php)
+2699.574 (9) An error condition has occurred for the first time during this job
+2699.577 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2699.579 (9) Number of backup sets in history: 1; groups (db): 1
+2699.583 (9) Examining (for databases) backup set with group_id=0, nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+2699.587 (9) This backup set is the backup set just made, so will not be deleted.
+2699.587 (9) Number of backup sets in history: 1; groups (files): 1
+2699.591 (9) Examining (for files) backup set with nonce=c444e06d1327, datestamp=1554781651 (Apr 09 2019 03:47:31)
+2699.591 (9) This backup set is the backup set just made, so will not be deleted.
+2699.597 (9) This backup set is the backup set just made, so will not be deleted.
+2699.597 (9) This backup set is the backup set just made, so will not be deleted.
+2699.597 (9) This backup set is the backup set just made, so will not be deleted.
+2699.597 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+2699.600 (9) Retain: saving new backup history (sets now: 1) and finishing retain operation
+2699.606 (9) Resume backup (c444e06d1327, 9): finish run
+2699.607 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+2699.611 (9) No email will/can be sent - the user has not configured an email address.
+2699.613 (9) 备份完成，但是貌似不成功
